@@ -50,9 +50,11 @@ set ruler
 set hlsearch
 set autoindent
 set shiftwidth=4
+syntax on
+set t_Co=256
+let g:solarized_termcolors=256
 colorscheme solarized
 set background=dark
-syntax on
 
 
 
